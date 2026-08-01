@@ -1,7 +1,24 @@
 aid: shiplyst
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shiplyst.png
 name: Shiplyst
-description: Shiplyst is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Shiplyst is an India-based ocean freight procurement marketplace and supply-chain
+  technology platform that lets exporters and importers search and compare container
+  shipping rates from 50+ ocean carriers in real time, generate instant quotes, book
+  containers with transparent pricing, and track cargo from pickup to delivery. The
+  platform automates Bill of Lading and invoice generation and offers real-time tracking
+  with exception alerts across its web and mobile apps. Shiplyst is backed by 500 Global.
+  No public developer API or documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/shiplyst/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Shipping
+- Ocean Freight
+- Supply Chain
+- Freight Forwarding
+- Container Shipping
+- Cargo Tracking
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://shiplyst.com
+- type: Blog
+  url: https://www.shiplyst.com/blog/
+- type: TermsOfService
+  url: https://www.shiplyst.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.shiplyst.com/privacy-policy/
+- type: DomainSecurity
+  url: security/shiplyst-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
